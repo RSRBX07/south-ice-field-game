@@ -40,10 +40,7 @@ def animals
       return :renard  
   end 
 end
-   puts "l'animal que vous avez choisit est le #{animals}"
-
-
-
+  
 
 
 
