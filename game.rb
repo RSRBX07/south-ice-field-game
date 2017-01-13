@@ -21,6 +21,11 @@ def removepillier my_coldbridge
 end
 
 
+
+
+
+
+
 #Amara
 # Définir les animaux dans leur lieux 
 animaux ={
