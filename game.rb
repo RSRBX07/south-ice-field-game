@@ -1,4 +1,15 @@
 #Donovan
 #Ernst
+
 #Amara
-#Guilluame
+
+animaux ={
+         ours:banquise,
+         lapin:banquise,
+         pingouin:banquise,
+         renard:banquise
+        } 
+
+
+ #Guilluame
+
