@@ -2,6 +2,4 @@
 #Ernst
 #Amara
 #Guillaume
-lieu = ["banquise", "pont", "igloo"]
-
-
+lieux = ["banquise", "pont", "igloo"]
