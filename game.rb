@@ -4,10 +4,10 @@
 #Amara
 
 animaux ={
-         ours:banquise,
-         lapin:banquise,
-         pingouin:banquise,
-         renard:banquise
+         ours: "banquise",
+         lapin: "banquise",
+         pingouin: "banquise",
+         renard: "banquise"
         } 
 
 
