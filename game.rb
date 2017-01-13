@@ -25,6 +25,16 @@ end
 #creation du pont 
 coldbridge =["pilier", "pilier", "pilier","pilier", "pilier", "pilier"]
 
+# enlever un pilier du tableau
+def removepillier my_coldbridge
+    my_coldbridge.pop
+end
+
+
+
+
+
+
 
 #Amara
 # Définir les animaux dans leur lieux 
