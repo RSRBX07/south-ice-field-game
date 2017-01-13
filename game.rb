@@ -10,6 +10,16 @@ def throw_dice
     end
 end
 
+def make_action action,animaux,my_coldbridge
+    case action
+    when "igloo"
+        move_animal animals,"igloo",animaux
+    when "bridge"
+        move_animal animals,"bridge",animaux
+    when "pillar"
+        removepillier my_coldbridge
+end
+
 
 #Ernst
 #creation du pont 
