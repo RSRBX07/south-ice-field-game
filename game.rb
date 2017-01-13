@@ -3,7 +3,7 @@
 #Amara
 #Guilluame
 #creation du pont 
-coldbridge =["pilier", "pilier", "pilier","pilier", "pilier", "pilier""]
+coldbridge =["pilier", "pilier", "pilier","pilier", "pilier", "pilier"]
 
 
 
