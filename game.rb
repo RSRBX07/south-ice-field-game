@@ -1,4 +1,7 @@
 #Donovan
 #Ernst
 #Amara
-#Guilluame
+#Guillaume
+lieu = ["banquise", "pont", "igloo"]
+
+
