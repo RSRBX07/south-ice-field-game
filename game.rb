@@ -10,6 +10,7 @@ def throw_dice
     end
 end
 
+
 def make_action action,animaux,my_coldbridge
     case action
     when "igloo"
@@ -20,20 +21,15 @@ def make_action action,animaux,my_coldbridge
         removepillier my_coldbridge
 end
 
-
 #Ernst
 #creation du pont 
 coldbridge =["pilier", "pilier", "pilier","pilier", "pilier", "pilier"]
+
 
 # enlever un pilier du tableau
 def removepillier my_coldbridge
     my_coldbridge.pop
 end
-
-
-
-
-
 
 
 #Amara
@@ -44,6 +40,7 @@ animaux ={
           pingouin: "banquise",
           renard: "banquise"
 } 
+
 
 # Définir la fonction qui demande à l'utilisateur de choisir un animal
 def animals 
@@ -61,8 +58,11 @@ def animals
   end 
 end
   
-
-
-
+  
 #Guillaume
+#fonction deplacement animaux
+def move_animal animals, destination, animaux
+     animaux[animals] = destination
+end 
+
 lieux = ["banquise", "pont", "igloo"]
