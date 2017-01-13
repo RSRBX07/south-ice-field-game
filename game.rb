@@ -25,6 +25,27 @@ animaux ={
           renard: "banquise"
 } 
 
+# Définir la fonction qui demande à l'utilisateur de choisir un animal
+def animals 
+    puts "choisir un animal: 1=ours, 2=lapin, 3=pingouin, 4=renard"
+    animal= gets.to_i
+  case animal
+    when 1
+      return :ours
+     when 2
+      return :lapin
+    when 3
+      return :pingouin
+    when 4
+      return :renard  
+  end 
+end
+   puts "l'animal que vous avez choisit est le #{animals}"
+
+
+
+
+
 
 #Guillaume
 lieux = ["banquise", "pont", "igloo"]
