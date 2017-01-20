@@ -23,6 +23,14 @@ class Game
       false
     end
   end
+
+  def loose?
+    if @road.place[@crow.advancement] == :place5
+      true
+    else
+      false
+    end
+  end
 #Guillaume
 
 
