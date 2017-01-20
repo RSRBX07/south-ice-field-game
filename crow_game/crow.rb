@@ -13,7 +13,7 @@ class Crow
     puts "j'ai mangé tes fruits,je gagne"
   end
   def loose
-    
+    puts "j'ai perdu"
   end
 end
 
