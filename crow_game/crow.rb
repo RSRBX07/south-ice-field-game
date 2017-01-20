@@ -7,7 +7,7 @@ class Crow
   end
 
   def initialize
-    advancement = 0    
+    @advancement = 0
   end
   def win
     puts "j'ai mangé tes fruits,je gagne"

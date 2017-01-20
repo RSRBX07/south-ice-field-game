@@ -12,7 +12,7 @@ class Game
     @basket=Basket.new
     @crow=Crow.new
     @dice=Dice.new
-    @fruit=Fruit.new
+    #@fruit=Fruit.new
     @orchard=Orchard.new Tree.new(:Red_Apple_Tree) ,Tree.new(:Green_Apple_Tree) ,Tree.new(:Pears_Tree) ,Tree.new(:Plum_Tree) 
     @road=Road.new
 
@@ -67,12 +67,12 @@ end
 #Guillaume
 #lancer de dé
   def throw_dice
-    dice.face
+    @dice.face
   end   
 
 #move du corbeau
   def crow_move
-    crow.walk
+    @crow.walk
   end  
 
 end
