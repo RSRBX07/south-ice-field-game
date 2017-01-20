@@ -1,8 +1,8 @@
-class crow
+class Crow
   attr_reader :advancement
+  attr_reader :road_lines
 
   def walk
-    
     @advancement += 1
   end
 
@@ -10,11 +10,7 @@ class crow
     advancement = 0    
   end
   def win
-    puts " j'ai volé tes fruits"
+    puts "j'ai mangé tes fruits,je gagne"
   end
-  def loose
-     puts"vous avez gagné"
-  end
-
 end
 
