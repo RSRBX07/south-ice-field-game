@@ -1,13 +1,8 @@
 class Dice
   attr_reader :face
 
-  def initialize
-  end 
-
   def face
-    face = ["rouge", "bleu", "vert", "jaune", "panier", "crow"]    
-  end 
-
-
-
+    [:red, :blue, :green, :yellow, :basket, :crow].sample    
+    
+end
 end
