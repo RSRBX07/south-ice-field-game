@@ -9,7 +9,7 @@ class Fruit
       @gather = false
     end
 
-    def gather 
+    def gathering
       @gather = true
     end
 end

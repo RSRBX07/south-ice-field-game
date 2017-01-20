@@ -1,10 +1,22 @@
+require_relative 'fruit.rb'
+
 class Tree
-  attr_accessor :fruits_count
+  attr_accessor :fruits
   attr_accessor :tree_kind
   
   def initialize a_tree_kind
-    @fruits_count = 4
+    color = fruit_color a_tree_kind
+    @fruits = [Fruit.new(color),Fruit.new(color),Fruit.new(color),Fruit.new(color)]
     @tree_kind = a_tree_kind
+  end
+
+  def fruit_color a_tree_kind
+    case a_tree_kind
+    when :Red_Apple_Tree then return Fruit::COLOR[0]
+    when :Green_Apple_Tree then return Fruit::COLOR[3]
+    when :Pears_Tree then return Fruit::COLOR[1]
+    when :Plum_Tree then return Fruit::COLOR[2]
+    end
   end
 
   def no_more_fruits?
@@ -12,28 +24,6 @@ class Tree
   end
 
   def remove_fruit
-    @fruits_count -= 1 unless no_more_fruits?
+    @fruits.pop.gathering unless no_more_fruits?
   end
 end
-
-# tree1 = Tree.new :Red_Apple_Tree
-# tree2 = Tree.new :Green_Apple_Tree
-# tree3 = Tree.new :Pears_Tree
-# tree4 = Tree.new :Plum_Tree
-# puts tree1.inspect
-# puts tree2.inspect
-# puts tree3.inspect
-# puts tree4.inspect
-
-# tree1 = Tree.new :Red_Apple_Tree
-# puts tree1.inspect
-# tree1.remove_fruit
-# puts tree1.inspect
-# tree1.remove_fruit
-# puts tree1.inspect
-# tree1.remove_fruit
-# puts tree1.inspect
-# tree1.remove_fruit
-# puts tree1.inspect
-# tree1.remove_fruit
-# puts tree1.inspect
