@@ -13,7 +13,7 @@ end
 def choose_fruit
   #retourne le numéro du fruit choisi
   begin  
-    puts "Choisissez un fruit en entrant un chiffre:"
+    puts "Choisissez un fruit en entrant un chiffre :"
     puts "1: Red Apple"
     puts "2: Green Apple"
     puts "3: Pears"
