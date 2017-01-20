@@ -1,5 +1,5 @@
 class Fruit
-    attr_reader :gather
+    attr_reader :gather,:color
 
     def initialize
       @gather = false
@@ -7,5 +7,9 @@ class Fruit
 
     def gather 
       @gather = true
+    end
+
+    def add_color color
+      @color = color
     end
 end
