@@ -3,6 +3,5 @@ class Dice
 
   def face
     [:red, :blue, :green, :yellow, :basket, :crow].sample    
-    
 end
 end
