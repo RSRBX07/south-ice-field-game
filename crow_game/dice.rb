@@ -5,7 +5,7 @@ class Dice
   end 
 
   def face
-    face = ["rouge", "bleu", "vert", "jaune", "panier", "crow"] 
+    face = ["rouge", "bleu", "vert", "jaune", "panier", "crow"]    
   end 
 
 
