@@ -3,11 +3,9 @@ class Fruit
 
     def initialize
       @gather = false
-        
     end
 
     def gather 
       @gather = true
     end
-
 end
