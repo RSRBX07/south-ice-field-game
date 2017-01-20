@@ -1,6 +1,6 @@
 class Crow
   attr_reader :advancement
-  attr_reader :road_lines
+  
 
   def walk
     @advancement += 1
@@ -11,6 +11,9 @@ class Crow
   end
   def win
     puts "j'ai mangé tes fruits,je gagne"
+  end
+  def loose
+    
   end
 end
 
